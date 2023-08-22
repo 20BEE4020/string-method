@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        String t=sc.nextLine();
+        String e=sc.nextLine();
+     System.out.println("Uppercase ="+t.toUpperCase());
+     System.out.println("LowerCase ="+t.toLowerCase());
+     System.out.println("Trim ="+t.trim());
+     System.out.println("Start ="+t.startsWith("es"));
+     System.out.println("end ="+t.endsWith("h"));
+     System.out.println("Char ="+t.charAt(2));
+     System.out.println("substring="+t.substring(2));
+     
+     System.out.println("length ="+t.length());
+     System.out.println("Equal ="+t.equals(e));
+     System.out.println("equalsIgnoreCase="+t.equalsIgnoreCase(e));
+     System.out.println("Contains ="+t.contains("hari"));
+     System.out.println("change conversion ="+t.trim().length());
+     char a[]=t.toCharArrays();
+     for(int element:a){
+         System.out.println(element);
+     }
+     
+    }}
